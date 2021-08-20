@@ -1,0 +1,5 @@
+.fondo{
+    background-image: url(./Recursos/cool-background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
