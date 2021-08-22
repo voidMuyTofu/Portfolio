@@ -3,11 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './App.css'
+import {BrowserRouter as Router} from 'react-router-dom'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App className={'fondo'}/>
-  </React.StrictMode>,
+      <App />,
   document.getElementById('root')
 );
 
