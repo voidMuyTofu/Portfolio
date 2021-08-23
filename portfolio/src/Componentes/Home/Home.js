@@ -18,11 +18,11 @@ class Home extends React.Component {
 
     render() {
         return (<div>
-                    <h1 className="home hello">
+                    <h1 className="hello">
                         <SplitText copy="Hello" role="heading" delay="0.4"></SplitText>
                     </h1>
                     <br></br>
-                    <h1 className="home fernando">
+                    <h1 className="fernando">
                         <SplitText copy="I'm Fernando" role="heading" delay="0.9"></SplitText>
                     </h1>
                     
@@ -34,12 +34,7 @@ class Home extends React.Component {
                             <Typography variant="h4">
                                 {homeDescription}
                             </Typography>
-                            
-                        </motion.div>  
-                    
-                    <Fade in={true} timeout={3500}>
-                        <Divider style={{background: '#FFFEEB', width: '70%', marginLeft: '15%', marginTop: '13%'}}/>
-                    </Fade>
+                        </motion.div> 
                     
                 </div>
         )

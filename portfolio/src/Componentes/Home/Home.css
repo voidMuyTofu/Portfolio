@@ -1,26 +1,29 @@
-.home{
-    margin-left: 3%;
+
+.hello{
+    position: absolute;
+    top:10%;
+    left: 3%
 }
 
-.home.hello{
-    margin-top: 7%;
+.fernando{
+    position: absolute;
+    top:26%;
+    left: 3%
 }
 
-.home.fernando{
-    margin-top: -2%;
-}
-
-.home.descripcion{
+.descripcion{
+    position: absolute;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 45%;
-    margin-top: 4%;
+    width: 800px;
+    top:55%;
+    left: 3%
 }
 
 .home.descripcion2{
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 35%;
+    width: 60em;
     margin-top: 4%;
 }
 

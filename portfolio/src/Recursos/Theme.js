@@ -17,7 +17,10 @@ let theme = createTheme({
 
     //'Playfair' 'Montserrat' 'Roboto Mono' 'Playfair Display'
 })
-
+theme.typography.h4 = {
+    fontSize: '3vh',
+    fontWeight: 400,
+}
 theme = responsiveFontSizes(theme);
 
 export default theme;

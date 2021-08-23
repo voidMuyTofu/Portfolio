@@ -27,9 +27,8 @@ export default class Scroller extends React.Component {
                     customPageNumber={this.state.currentPage}>
                     <Home />
                     <About_me />
-                    <Projects />
                 </ReactPageScroller>
-                <div style={{position: 'absolute', left: '93%', top: '40%', display: 'flex-row', width: '1em'}}>
+                <div style={{position: 'absolute', left: '97%', top: '40%', display: 'flex-row', width: '1em'}}>
                         <Tooltip title="Home" placement="left">
                         <IconButton style={{paddingBottom: 'em', color:'#FFFEEB'}} onClick={() => this.handlePageChange(0)} >
                             <FiberManualRecordIcon fontSize="small" />

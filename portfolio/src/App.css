@@ -2,12 +2,10 @@
     padding: 0;
     margin: 0;
   }
-  
+
   body {
     font-family: 'Playfair Display', sans-serif;
     height: 100%;
-    position: fixed;
-    overflow-y: scroll;
   }
 
   body::-webkit-scrollbar{
@@ -24,7 +22,7 @@
   }
   
   h1 {
-    font-size: 7em;
+    font-size: 6vw;
     text-align: left;
     font-weight: 900;
     color: #353239;
